@@ -24,8 +24,10 @@ To run this project, you will need:
 
 Once the project is deployed, you can use the following endpoints to test the OAuth implementation:
 
-- `http://localhost:8081/api/hello` - this endpoint is not secured and can be accessed without OAuth authentication.
-- `http://localhost:8081/api/secure/hello` - this endpoint is secured and requires OAuth authentication. You can access this endpoint by including an OAuth access token in the `Authorization` header of the HTTP request.
+- `http://localhost:8081/createclient` - this endpoint is for generating clientId and clientSecret for the client.
+- `http://localhost:8081/token` - this endpoint is for generating oAuth token for the given client.
+- `http://localhost:8081/validate` - this endpoint is for validating the client with provided oAuth token.
+
 
 To obtain an OAuth access token, you can use the OAuth client credentials grant type. This project includes a sample client credentials flow that you can use to obtain an access token. You can find this flow in the `client-credentials-grant.xml` file.
 
