@@ -31,9 +31,6 @@ Once the project is deployed, you can use the following endpoints to test the OA
 
 To obtain an OAuth access token, you can use the OAuth client credentials grant type. This project includes a sample client credentials flow that you can use to obtain an access token. You can find this flow in the `client-credentials-grant.xml` file.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
 ## Contributing
 
